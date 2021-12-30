@@ -1,0 +1,370 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "jinja2 >=2.8",
+    "matplotlib >=1.4",
+    "pandas >=0.19",
+    "python >=2.7",
+    "six >=1.9"
+  ],
+  "extracted_package_dir": "/Users/sternsemasuka/miniforge3/pkgs/pandas-profiling-1.4.2-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.10/site-packages/pandas_profiling-1.4.2.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/pandas_profiling-1.4.2.dist-info/LICENSE",
+    "lib/python3.10/site-packages/pandas_profiling-1.4.2.dist-info/METADATA",
+    "lib/python3.10/site-packages/pandas_profiling-1.4.2.dist-info/RECORD",
+    "lib/python3.10/site-packages/pandas_profiling-1.4.2.dist-info/WHEEL",
+    "lib/python3.10/site-packages/pandas_profiling-1.4.2.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/pandas_profiling/__init__.py",
+    "lib/python3.10/site-packages/pandas_profiling/base.py",
+    "lib/python3.10/site-packages/pandas_profiling/describe.py",
+    "lib/python3.10/site-packages/pandas_profiling/formatters.py",
+    "lib/python3.10/site-packages/pandas_profiling/pandas_profiling.mplstyle",
+    "lib/python3.10/site-packages/pandas_profiling/plot.py",
+    "lib/python3.10/site-packages/pandas_profiling/report.py",
+    "lib/python3.10/site-packages/pandas_profiling/templates.py",
+    "lib/python3.10/site-packages/pandas_profiling/templates/_row_footer.html",
+    "lib/python3.10/site-packages/pandas_profiling/templates/_row_header.html",
+    "lib/python3.10/site-packages/pandas_profiling/templates/_row_header_ignore.html",
+    "lib/python3.10/site-packages/pandas_profiling/templates/base.html",
+    "lib/python3.10/site-packages/pandas_profiling/templates/correlations.html",
+    "lib/python3.10/site-packages/pandas_profiling/templates/freq_table.html",
+    "lib/python3.10/site-packages/pandas_profiling/templates/freq_table_row.html",
+    "lib/python3.10/site-packages/pandas_profiling/templates/mini_freq_table.html",
+    "lib/python3.10/site-packages/pandas_profiling/templates/mini_freq_table_row.html",
+    "lib/python3.10/site-packages/pandas_profiling/templates/overview.html",
+    "lib/python3.10/site-packages/pandas_profiling/templates/row_bool.html",
+    "lib/python3.10/site-packages/pandas_profiling/templates/row_cat.html",
+    "lib/python3.10/site-packages/pandas_profiling/templates/row_const.html",
+    "lib/python3.10/site-packages/pandas_profiling/templates/row_corr.html",
+    "lib/python3.10/site-packages/pandas_profiling/templates/row_date.html",
+    "lib/python3.10/site-packages/pandas_profiling/templates/row_num.html",
+    "lib/python3.10/site-packages/pandas_profiling/templates/row_recoded.html",
+    "lib/python3.10/site-packages/pandas_profiling/templates/row_unique.html",
+    "lib/python3.10/site-packages/pandas_profiling/templates/row_unsupported.html",
+    "lib/python3.10/site-packages/pandas_profiling/templates/sample.html",
+    "lib/python3.10/site-packages/pandas_profiling/templates/wrapper.html",
+    "lib/python3.10/site-packages/pandas_profiling/tests.py",
+    "lib/python3.10/site-packages/pandas_profiling/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/pandas_profiling/__pycache__/base.cpython-310.pyc",
+    "lib/python3.10/site-packages/pandas_profiling/__pycache__/describe.cpython-310.pyc",
+    "lib/python3.10/site-packages/pandas_profiling/__pycache__/formatters.cpython-310.pyc",
+    "lib/python3.10/site-packages/pandas_profiling/__pycache__/plot.cpython-310.pyc",
+    "lib/python3.10/site-packages/pandas_profiling/__pycache__/report.cpython-310.pyc",
+    "lib/python3.10/site-packages/pandas_profiling/__pycache__/templates.cpython-310.pyc",
+    "lib/python3.10/site-packages/pandas_profiling/__pycache__/tests.cpython-310.pyc"
+  ],
+  "fn": "pandas-profiling-1.4.2-py_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/sternsemasuka/miniforge3/pkgs/pandas-profiling-1.4.2-py_0",
+    "type": 1
+  },
+  "md5": "70a62d5c41c331fbc7b9a6aa3c717b45",
+  "name": "pandas-profiling",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/sternsemasuka/miniforge3/pkgs/pandas-profiling-1.4.2-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/pandas_profiling-1.4.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "sha256_in_prefix": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "site-packages/pandas_profiling-1.4.2.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "19e7d54b6047448441764b90dda4832102927a8c9a22e7b16ac33536a8741161",
+        "sha256_in_prefix": "19e7d54b6047448441764b90dda4832102927a8c9a22e7b16ac33536a8741161",
+        "size_in_bytes": 1079
+      },
+      {
+        "_path": "site-packages/pandas_profiling-1.4.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "11f93535322b8eab8ea92dd411ef94dd4f57e49fb39dfb0459af7fe1e9c7de92",
+        "sha256_in_prefix": "11f93535322b8eab8ea92dd411ef94dd4f57e49fb39dfb0459af7fe1e9c7de92",
+        "size_in_bytes": 5116
+      },
+      {
+        "_path": "site-packages/pandas_profiling-1.4.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "8fa3e37fc552e952d68150524e8f60ff05defb195fd86461833f5742f346f06f",
+        "sha256_in_prefix": "8fa3e37fc552e952d68150524e8f60ff05defb195fd86461833f5742f346f06f",
+        "size_in_bytes": 3844
+      },
+      {
+        "_path": "site-packages/pandas_profiling-1.4.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1d7faff7e9e8524c94a31c99d4f312b92edab94c43011e1505da182ea0f4c70b",
+        "sha256_in_prefix": "1d7faff7e9e8524c94a31c99d4f312b92edab94c43011e1505da182ea0f4c70b",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/pandas_profiling-1.4.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "008794cd773a85e9d5c2df8141c1fff839d5e8f4cef4467911f574bdcff43de6",
+        "sha256_in_prefix": "008794cd773a85e9d5c2df8141c1fff839d5e8f4cef4467911f574bdcff43de6",
+        "size_in_bytes": 17
+      },
+      {
+        "_path": "site-packages/pandas_profiling/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0cea69ac29124671c28a3283813e969df42bbc2883e8a1128b075f8e9590d28c",
+        "sha256_in_prefix": "0cea69ac29124671c28a3283813e969df42bbc2883e8a1128b075f8e9590d28c",
+        "size_in_bytes": 5089
+      },
+      {
+        "_path": "site-packages/pandas_profiling/base.py",
+        "path_type": "hardlink",
+        "sha256": "c4ee1b7866dcfb67fba340e9c92ac9bc4528dc4a7c91f4bf4779cf10c89d0502",
+        "sha256_in_prefix": "c4ee1b7866dcfb67fba340e9c92ac9bc4528dc4a7c91f4bf4779cf10c89d0502",
+        "size_in_bytes": 3892
+      },
+      {
+        "_path": "site-packages/pandas_profiling/describe.py",
+        "path_type": "hardlink",
+        "sha256": "c77e801960cdea2f2cbb6c46f18a79c4b41312beb3ca383054f37f6d96e1a2da",
+        "sha256_in_prefix": "c77e801960cdea2f2cbb6c46f18a79c4b41312beb3ca383054f37f6d96e1a2da",
+        "size_in_bytes": 15178
+      },
+      {
+        "_path": "site-packages/pandas_profiling/formatters.py",
+        "path_type": "hardlink",
+        "sha256": "9e58b26dad7cb99c9fbc42ebf751680634caeebd2b1b83cc46b7c974dcc92118",
+        "sha256_in_prefix": "9e58b26dad7cb99c9fbc42ebf751680634caeebd2b1b83cc46b7c974dcc92118",
+        "size_in_bytes": 1894
+      },
+      {
+        "_path": "site-packages/pandas_profiling/pandas_profiling.mplstyle",
+        "path_type": "hardlink",
+        "sha256": "9a420c90c2ef4ee5700b6e8a5a200005fe50fb87cc3eae977ea0bbd599683a10",
+        "sha256_in_prefix": "9a420c90c2ef4ee5700b6e8a5a200005fe50fb87cc3eae977ea0bbd599683a10",
+        "size_in_bytes": 1272
+      },
+      {
+        "_path": "site-packages/pandas_profiling/plot.py",
+        "path_type": "hardlink",
+        "sha256": "174107b42cd45c0fdfcd7524101ca2bae33d27be06398cb1e5f74c573a651694",
+        "sha256_in_prefix": "174107b42cd45c0fdfcd7524101ca2bae33d27be06398cb1e5f74c573a651694",
+        "size_in_bytes": 4702
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report.py",
+        "path_type": "hardlink",
+        "sha256": "8bb98aaf73e3452d1a6ba3f35e3862286c65d4524510d055d8f78fad1505057a",
+        "sha256_in_prefix": "8bb98aaf73e3452d1a6ba3f35e3862286c65d4524510d055d8f78fad1505057a",
+        "size_in_bytes": 9353
+      },
+      {
+        "_path": "site-packages/pandas_profiling/templates.py",
+        "path_type": "hardlink",
+        "sha256": "8b0abab897b7bc6dffcc86ffd0f1d2d095c49e18e58f0cc0ac9cb400bfd54b35",
+        "sha256_in_prefix": "8b0abab897b7bc6dffcc86ffd0f1d2d095c49e18e58f0cc0ac9cb400bfd54b35",
+        "size_in_bytes": 4862
+      },
+      {
+        "_path": "site-packages/pandas_profiling/templates/_row_footer.html",
+        "path_type": "hardlink",
+        "sha256": "aac32651b10f567c461b9b4f255d6fb1fa6859b5368d8bd9a51af920ab21cf23",
+        "sha256_in_prefix": "aac32651b10f567c461b9b4f255d6fb1fa6859b5368d8bd9a51af920ab21cf23",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "site-packages/pandas_profiling/templates/_row_header.html",
+        "path_type": "hardlink",
+        "sha256": "ee480a1c09ade3a70f671613f54f23bbf31772a5306d74dfa140cdf0c2880fd3",
+        "sha256_in_prefix": "ee480a1c09ade3a70f671613f54f23bbf31772a5306d74dfa140cdf0c2880fd3",
+        "size_in_bytes": 226
+      },
+      {
+        "_path": "site-packages/pandas_profiling/templates/_row_header_ignore.html",
+        "path_type": "hardlink",
+        "sha256": "2395bb245df6251cd93224c1af568c92ef615ed8e3b6602e850ff0f0a8f8da7b",
+        "sha256_in_prefix": "2395bb245df6251cd93224c1af568c92ef615ed8e3b6602e850ff0f0a8f8da7b",
+        "size_in_bytes": 240
+      },
+      {
+        "_path": "site-packages/pandas_profiling/templates/base.html",
+        "path_type": "hardlink",
+        "sha256": "143081563082f849b1faf54552777ee6cb0cacbc17debb45cb4c7ba17f09ad5d",
+        "sha256_in_prefix": "143081563082f849b1faf54552777ee6cb0cacbc17debb45cb4c7ba17f09ad5d",
+        "size_in_bytes": 5283
+      },
+      {
+        "_path": "site-packages/pandas_profiling/templates/correlations.html",
+        "path_type": "hardlink",
+        "sha256": "de18cc93692fc7eb9b906906b96ee526e020ea5331b490a38fce97e26d1392f2",
+        "sha256_in_prefix": "de18cc93692fc7eb9b906906b96ee526e020ea5331b490a38fce97e26d1392f2",
+        "size_in_bytes": 169
+      },
+      {
+        "_path": "site-packages/pandas_profiling/templates/freq_table.html",
+        "path_type": "hardlink",
+        "sha256": "f7cde26306e9bbaef9105bbb3d5bbbe0602db92018d6b35adc4994e6cfb408ce",
+        "sha256_in_prefix": "f7cde26306e9bbaef9105bbb3d5bbbe0602db92018d6b35adc4994e6cfb408ce",
+        "size_in_bytes": 285
+      },
+      {
+        "_path": "site-packages/pandas_profiling/templates/freq_table_row.html",
+        "path_type": "hardlink",
+        "sha256": "9db727fcd0a7eed6b7c9eca1ac95dcb7b24ca6dd7a6316a6c496cc660b5d742a",
+        "sha256_in_prefix": "9db727fcd0a7eed6b7c9eca1ac95dcb7b24ca6dd7a6316a6c496cc660b5d742a",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "site-packages/pandas_profiling/templates/mini_freq_table.html",
+        "path_type": "hardlink",
+        "sha256": "3cb66c17fa02359ee80a7e55ca1df347aadba8b8cb933027e3db291ac633a891",
+        "sha256_in_prefix": "3cb66c17fa02359ee80a7e55ca1df347aadba8b8cb933027e3db291ac633a891",
+        "size_in_bytes": 144
+      },
+      {
+        "_path": "site-packages/pandas_profiling/templates/mini_freq_table_row.html",
+        "path_type": "hardlink",
+        "sha256": "40b61f9740edfbc0fef9f82d90eabd538593abfac8f2a03aa052f192c2b72cce",
+        "sha256_in_prefix": "40b61f9740edfbc0fef9f82d90eabd538593abfac8f2a03aa052f192c2b72cce",
+        "size_in_bytes": 337
+      },
+      {
+        "_path": "site-packages/pandas_profiling/templates/overview.html",
+        "path_type": "hardlink",
+        "sha256": "b6689e2907454060482c28b47f5ad72e2dde4348dd812a7f95e65b132a7bed2c",
+        "sha256_in_prefix": "b6689e2907454060482c28b47f5ad72e2dde4348dd812a7f95e65b132a7bed2c",
+        "size_in_bytes": 2130
+      },
+      {
+        "_path": "site-packages/pandas_profiling/templates/row_bool.html",
+        "path_type": "hardlink",
+        "sha256": "99f09de43053279789022e53d7903f774d9b68c96c610f31c40e6e0e1f09f1cc",
+        "sha256_in_prefix": "99f09de43053279789022e53d7903f774d9b68c96c610f31c40e6e0e1f09f1cc",
+        "size_in_bytes": 1556
+      },
+      {
+        "_path": "site-packages/pandas_profiling/templates/row_cat.html",
+        "path_type": "hardlink",
+        "sha256": "be8719ab654369fb5b955e27dc356df7a95607e6b39b1ae29f51148175739047",
+        "sha256_in_prefix": "be8719ab654369fb5b955e27dc356df7a95607e6b39b1ae29f51148175739047",
+        "size_in_bytes": 1103
+      },
+      {
+        "_path": "site-packages/pandas_profiling/templates/row_const.html",
+        "path_type": "hardlink",
+        "sha256": "eb124419153bad74a1f616537fabf0b435d4062a81a3b02254dec00172c1fe7a",
+        "sha256_in_prefix": "eb124419153bad74a1f616537fabf0b435d4062a81a3b02254dec00172c1fe7a",
+        "size_in_bytes": 358
+      },
+      {
+        "_path": "site-packages/pandas_profiling/templates/row_corr.html",
+        "path_type": "hardlink",
+        "sha256": "a2c2353f2ee34cc46c8a430948e4713a88cec12ac128517a2c352021ec2d4cf8",
+        "sha256_in_prefix": "a2c2353f2ee34cc46c8a430948e4713a88cec12ac128517a2c352021ec2d4cf8",
+        "size_in_bytes": 475
+      },
+      {
+        "_path": "site-packages/pandas_profiling/templates/row_date.html",
+        "path_type": "hardlink",
+        "sha256": "13f34390ffd47ff70adb82d895a90bd5725792986410ad94d84af94c59158928",
+        "sha256_in_prefix": "13f34390ffd47ff70adb82d895a90bd5725792986410ad94d84af94c59158928",
+        "size_in_bytes": 2111
+      },
+      {
+        "_path": "site-packages/pandas_profiling/templates/row_num.html",
+        "path_type": "hardlink",
+        "sha256": "83ecdd64803a9de5b2a4abf582ee5d820ac7488b902e057f68a1a1a6263d55db",
+        "sha256_in_prefix": "83ecdd64803a9de5b2a4abf582ee5d820ac7488b902e057f68a1a1a6263d55db",
+        "size_in_bytes": 7174
+      },
+      {
+        "_path": "site-packages/pandas_profiling/templates/row_recoded.html",
+        "path_type": "hardlink",
+        "sha256": "49f1a6d2502bf829609e0c60ab420653ac19c89e18c1e9d07fe71db67b074124",
+        "sha256_in_prefix": "49f1a6d2502bf829609e0c60ab420653ac19c89e18c1e9d07fe71db67b074124",
+        "size_in_bytes": 221
+      },
+      {
+        "_path": "site-packages/pandas_profiling/templates/row_unique.html",
+        "path_type": "hardlink",
+        "sha256": "57e450e473199760ad02af21846c99fa62f1d7b3e38b8d7def7d1cd58778260a",
+        "sha256_in_prefix": "57e450e473199760ad02af21846c99fa62f1d7b3e38b8d7def7d1cd58778260a",
+        "size_in_bytes": 739
+      },
+      {
+        "_path": "site-packages/pandas_profiling/templates/row_unsupported.html",
+        "path_type": "hardlink",
+        "sha256": "d8a85bdab984fecd1524e5e4f6204c9f1c73bc17f0850554085ee937dc9c2df6",
+        "sha256_in_prefix": "d8a85bdab984fecd1524e5e4f6204c9f1c73bc17f0850554085ee937dc9c2df6",
+        "size_in_bytes": 343
+      },
+      {
+        "_path": "site-packages/pandas_profiling/templates/sample.html",
+        "path_type": "hardlink",
+        "sha256": "049de2977543d84abc3200ae3b65dd32f50d9ff91d75ae216e12abcf7c7fd599",
+        "sha256_in_prefix": "049de2977543d84abc3200ae3b65dd32f50d9ff91d75ae216e12abcf7c7fd599",
+        "size_in_bytes": 166
+      },
+      {
+        "_path": "site-packages/pandas_profiling/templates/wrapper.html",
+        "path_type": "hardlink",
+        "sha256": "2e64f77722831a5e3b28d4f57f66113f26ca0652504d4716df97685399ab7cbf",
+        "sha256_in_prefix": "2e64f77722831a5e3b28d4f57f66113f26ca0652504d4716df97685399ab7cbf",
+        "size_in_bytes": 1583
+      },
+      {
+        "_path": "site-packages/pandas_profiling/tests.py",
+        "path_type": "hardlink",
+        "sha256": "f3284bd2f3a61ebfe2a59dcb50a00fe9cf6430249237a9cb40d6203d4aeba62b",
+        "sha256_in_prefix": "f3284bd2f3a61ebfe2a59dcb50a00fe9cf6430249237a9cb40d6203d4aeba62b",
+        "size_in_bytes": 16991
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pandas_profiling/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pandas_profiling/__pycache__/base.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pandas_profiling/__pycache__/describe.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pandas_profiling/__pycache__/formatters.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pandas_profiling/__pycache__/plot.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pandas_profiling/__pycache__/report.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pandas_profiling/__pycache__/templates.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/pandas_profiling/__pycache__/tests.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "pandas-profiling",
+  "sha256": "31d1b15bd5e84d64a646beebc8083d4c7643b9d22c88cc26953dc36ef6edaa20",
+  "size": 27982,
+  "subdir": "noarch",
+  "timestamp": 1556496275467,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/pandas-profiling-1.4.2-py_0.tar.bz2",
+  "version": "1.4.2"
+}

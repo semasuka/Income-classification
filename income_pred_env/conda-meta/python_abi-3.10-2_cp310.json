@@ -1,0 +1,36 @@
+{
+  "build": "2_cp310",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [
+    "pypy <0a0"
+  ],
+  "depends": [
+    "python 3.10.*"
+  ],
+  "extracted_package_dir": "/Users/sternsemasuka/miniforge3/pkgs/python_abi-3.10-2_cp310",
+  "features": "",
+  "files": [],
+  "fn": "python_abi-3.10-2_cp310.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/sternsemasuka/miniforge3/pkgs/python_abi-3.10-2_cp310",
+    "type": 1
+  },
+  "md5": "b14f70f943f726b5738da894a979356c",
+  "name": "python_abi",
+  "package_tarball_full_path": "/Users/sternsemasuka/miniforge3/pkgs/python_abi-3.10-2_cp310.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "88eee9acd62e596adfa2659b9a2229c51c990539196440307f2e462bc773c41d",
+  "size": 4117,
+  "subdir": "osx-arm64",
+  "timestamp": 1633504242855,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/python_abi-3.10-2_cp310.tar.bz2",
+  "version": "3.10"
+}

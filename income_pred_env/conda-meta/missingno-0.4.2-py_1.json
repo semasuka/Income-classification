@@ -1,0 +1,135 @@
+{
+  "build": "py_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "matplotlib-base",
+    "numpy",
+    "pandas",
+    "python",
+    "scipy",
+    "seaborn"
+  ],
+  "extracted_package_dir": "/Users/sternsemasuka/miniforge3/pkgs/missingno-0.4.2-py_1",
+  "features": "",
+  "files": [
+    "lib/python3.10/site-packages/missingno-0.4.2.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/missingno-0.4.2.dist-info/METADATA",
+    "lib/python3.10/site-packages/missingno-0.4.2.dist-info/RECORD",
+    "lib/python3.10/site-packages/missingno-0.4.2.dist-info/WHEEL",
+    "lib/python3.10/site-packages/missingno-0.4.2.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/missingno/__init__.py",
+    "lib/python3.10/site-packages/missingno/_version.py",
+    "lib/python3.10/site-packages/missingno/missingno.py",
+    "lib/python3.10/site-packages/missingno/utils.py",
+    "lib/python3.10/site-packages/missingno/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/missingno/__pycache__/_version.cpython-310.pyc",
+    "lib/python3.10/site-packages/missingno/__pycache__/missingno.cpython-310.pyc",
+    "lib/python3.10/site-packages/missingno/__pycache__/utils.cpython-310.pyc"
+  ],
+  "fn": "missingno-0.4.2-py_1.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/sternsemasuka/miniforge3/pkgs/missingno-0.4.2-py_1",
+    "type": 1
+  },
+  "md5": "04b79f39dc23ea3af4262bd1e2c5eb38",
+  "name": "missingno",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/sternsemasuka/miniforge3/pkgs/missingno-0.4.2-py_1.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/missingno-0.4.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/missingno-0.4.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "4e4be9fca69303df5eb06cdcbabb1451c5052ae59673146c45869e337829b59a",
+        "sha256_in_prefix": "4e4be9fca69303df5eb06cdcbabb1451c5052ae59673146c45869e337829b59a",
+        "size_in_bytes": 638
+      },
+      {
+        "_path": "site-packages/missingno-0.4.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "adc8b57287475e1a950c365ff300e88f12ccb1eda430eccd972e18b89c31d00b",
+        "sha256_in_prefix": "adc8b57287475e1a950c365ff300e88f12ccb1eda430eccd972e18b89c31d00b",
+        "size_in_bytes": 813
+      },
+      {
+        "_path": "site-packages/missingno-0.4.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "09b51d2d3a83dfee3359e99ff37ae047fdbf302e13797c3da97c2b5ed7b9c38c",
+        "sha256_in_prefix": "09b51d2d3a83dfee3359e99ff37ae047fdbf302e13797c3da97c2b5ed7b9c38c",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/missingno-0.4.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "246283961da74ceb05bff6d7b178656a65983731339e6f665bcd42dbe6796327",
+        "sha256_in_prefix": "246283961da74ceb05bff6d7b178656a65983731339e6f665bcd42dbe6796327",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/missingno/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b88bf6af4ffea489c0f202a36720b883892d7be0f1f0caa0ff6d3ea8655b6d07",
+        "sha256_in_prefix": "b88bf6af4ffea489c0f202a36720b883892d7be0f1f0caa0ff6d3ea8655b6d07",
+        "size_in_bytes": 309
+      },
+      {
+        "_path": "site-packages/missingno/_version.py",
+        "path_type": "hardlink",
+        "sha256": "ceb713c313f7480dc5d49b3bf1a7eb7de699789afcc3684bb45b4466852a5268",
+        "sha256_in_prefix": "ceb713c313f7480dc5d49b3bf1a7eb7de699789afcc3684bb45b4466852a5268",
+        "size_in_bytes": 22
+      },
+      {
+        "_path": "site-packages/missingno/missingno.py",
+        "path_type": "hardlink",
+        "sha256": "6268481fc970e79df1459ff3fad3bfbb8d86ca92f08ce1cd46157dce7ca8ef59",
+        "sha256_in_prefix": "6268481fc970e79df1459ff3fad3bfbb8d86ca92f08ce1cd46157dce7ca8ef59",
+        "size_in_bytes": 23813
+      },
+      {
+        "_path": "site-packages/missingno/utils.py",
+        "path_type": "hardlink",
+        "sha256": "087816b9dc250cf70250776f2b8991202d99993c8391999d880d05947b61431a",
+        "sha256_in_prefix": "087816b9dc250cf70250776f2b8991202d99993c8391999d880d05947b61431a",
+        "size_in_bytes": 2724
+      },
+      {
+        "_path": "lib/python3.10/site-packages/missingno/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/missingno/__pycache__/_version.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/missingno/__pycache__/missingno.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/missingno/__pycache__/utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "missingno",
+  "sha256": "dd81af75965af2ed614d1bfc1f42f118a43e87ca22413eb3e2690222df213421",
+  "size": 12184,
+  "subdir": "noarch",
+  "timestamp": 1581761182122,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/missingno-0.4.2-py_1.tar.bz2",
+  "version": "0.4.2"
+}
