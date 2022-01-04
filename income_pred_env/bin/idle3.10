@@ -1,5 +1,0 @@
-#!/Users/sternsemasuka/Desktop/ML stuff/ML Project/Income classification/income_pred_env/bin/python3.10
-
-from idlelib.pyshell import main
-if __name__ == '__main__':
-    main()
