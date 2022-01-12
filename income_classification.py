@@ -40,6 +40,14 @@ gdp_data.reset_index(inplace=True, drop=True)
 
 gdp_data.rename(columns={'Country Name':'native-country','1990':'GDP_1990'},inplace=True)
 
+
+def value_cnt_norm_cal(df,feature):
+    ftr_value_cnt = df[feature].value_counts()
+    ftr_value_cnt_norm = df[feature].value_counts(normalize=True) * 100
+    ftr_value_cnt_concat = pd.concat([ftr_value_cnt, ftr_value_cnt_norm], axis=1)
+    ftr_value_cnt_concat.columns = ['Count', 'Frequency (%)']
+    return ftr_value_cnt_concat
+
 def add_gdp_data(train_copy,test_copy,gdp_data):
         full_data_copy = pd.concat([train_copy,test_copy],ignore_index=True)
         gdp_group = []
