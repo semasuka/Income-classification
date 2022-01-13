@@ -8,9 +8,8 @@ from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder, MinMaxScaler, OrdinalEncoder
 from sklearn.ensemble import RandomForestClassifier
 from imblearn.over_sampling import SMOTE
-import income_class_st as ics
 import joblib
-import pickle
+# import pickle
 import streamlit as st
 
 
@@ -295,7 +294,7 @@ input_marital_status_val = marital_status_dict.get(input_marital_status_key)
 
 
 
-# Occupation input dropdown
+#Occupation input dropdown
 st.write("""
 ## Occupation
 """)
@@ -434,7 +433,7 @@ if predict_bt:
     if final_pred == 1.0:
         st.success('## You most likely make more than 50k')
     else:
-        st.write('## You most likely make less than 50k')
+        st.error('## You most likely make less than 50k')
 
 
 
