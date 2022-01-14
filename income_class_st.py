@@ -11,13 +11,16 @@ from imblearn.over_sampling import SMOTE
 import joblib
 import streamlit as st
 import boto3
+from secret import access_key, secret_access_key
+import tempfile
 
 
 
 
-train_original = pd.read_csv('datasets/train.csv')
 
-test_original = pd.read_csv('datasets/test.csv')
+train_original = pd.read_csv('https://raw.githubusercontent.com/semasuka/Income-classification/master/datasets/train.csv')
+
+test_original = pd.read_csv('https://raw.githubusercontent.com/semasuka/Income-classification/master/datasets/test.csv')
 
 full_data = pd.concat([train_original, test_original], axis=0)
 
@@ -34,7 +37,7 @@ train_original, test_original = data_split(full_data, 0.2)
 train_copy = train_original.copy()
 test_copy = test_original.copy()
 
-gdp_data = pd.read_csv('datasets/GDP.csv')
+gdp_data = pd.read_csv('https://raw.githubusercontent.com/semasuka/Income-classification/master/datasets/GDP.csv')
 
 gdp_data.sort_values(by='1990' , inplace=True,ascending=False)
 
@@ -407,20 +410,20 @@ rand_forest_least_pred = [
     'occupation_Priv-house-serv'
 ]
 
-X_train_copy_prep_drop_ft = drop_least_useful_ft(X_train_copy_prep,rand_forest_least_pred)
+#X_train_copy_prep_drop_ft = drop_least_useful_ft(X_train_copy_prep,rand_forest_least_pred)
 
-rand_forest_clf = RandomForestClassifier(n_estimators= 500, min_samples_split= 10, min_samples_leaf= 1, max_features= 'sqrt', max_depth= 25, bootstrap = False)
+#rand_forest_clf = RandomForestClassifier(n_estimators= 500, min_samples_split= 10, min_samples_leaf= 1, max_features= 'sqrt', max_depth= 25, bootstrap = False)
 
 
-# joblib save the model
-model_file_path = Path('rand_forest_clf.sav')
-try:
-    model_file_path.resolve(strict=True)
-except FileNotFoundError:
-    rand_forest_clf_trn = rand_forest_clf.fit(X_train_copy_prep_drop_ft, y_train_copy_prep)
-    joblib.dump(rand_forest_clf_trn,model_file_path)
-else:
-    rand_forest_clf_trn = joblib.load(model_file_path)
+# # joblib save the model localy
+# model_file_path = Path('rand_forest_clf.sav')
+# try:
+#     model_file_path.resolve(strict=True)
+# except FileNotFoundError:
+#     rand_forest_clf_trn = rand_forest_clf.fit(X_train_copy_prep_drop_ft, y_train_copy_prep)
+#     joblib.dump(rand_forest_clf_trn,model_file_path)
+# else:
+#     rand_forest_clf_trn = joblib.load(model_file_path)
 
 
 profile_to_pred_prep_drop_ft = drop_least_useful_ft(profile_to_pred_prep,rand_forest_least_pred)
@@ -428,12 +431,29 @@ profile_to_pred_prep_drop_ft = drop_least_useful_ft(profile_to_pred_prep,rand_fo
 st.markdown('##')
 st.markdown('##')
 
+
+
 if predict_bt:
-    final_pred = rand_forest_clf_trn.predict(profile_to_pred_prep_drop_ft)
-    if final_pred == 1.0:
+    # prediction from the model on AWS S3
+    client = boto3.client('s3', aws_access_key_id=access_key,aws_secret_access_key=secret_access_key)
+
+    bucket_name = "incomepredbucket"
+    key = "rand_forest_clf.sav"
+
+    with tempfile.TemporaryFile() as fp:
+        client.download_fileobj(Fileobj=fp, Bucket=bucket_name, Key=key)
+        fp.seek(0)
+        model = joblib.load(fp)
+
+    final_pred = model.predict(profile_to_pred_prep_drop_ft)
+    if final_pred[0] == 1.0:
         st.success('## You most likely make more than 50k')
     else:
         st.error('## You most likely make less than 50k')
+
+
+
+
 
 
 
