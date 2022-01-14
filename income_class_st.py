@@ -14,8 +14,8 @@ import boto3
 #from secret import access_key, secret_access_key
 import tempfile
 import json
-import requests
-from streamlit_lottie import st_lottie, st_lottie_spinner
+#import requests
+#from streamlit_lottie import st_lottie, st_lottie_spinner
 import time
 
 
@@ -437,14 +437,14 @@ st.markdown('##')
 
 
 # Animation function
-def load_lottieurl(url: str):
-    r = requests.get(url)
-    if r.status_code != 200:
-        return None
-    else:
-        return r.json()
+# def load_lottieurl(url: str):
+#     r = requests.get(url)
+#     if r.status_code != 200:
+#         return None
+#     else:
+#         return r.json()
 
-lottie_loading_an = load_lottieurl('https://assets3.lottiefiles.com/packages/lf20_szlepvdh.json')
+# lottie_loading_an = load_lottieurl('https://assets3.lottiefiles.com/packages/lf20_szlepvdh.json')
 
 
 if predict_bt:
