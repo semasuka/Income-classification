@@ -9,8 +9,8 @@ from sklearn.preprocessing import OneHotEncoder, MinMaxScaler, OrdinalEncoder
 from sklearn.ensemble import RandomForestClassifier
 from imblearn.over_sampling import SMOTE
 import joblib
-# import pickle
 import streamlit as st
+import boto3
 
 
 
@@ -412,7 +412,7 @@ X_train_copy_prep_drop_ft = drop_least_useful_ft(X_train_copy_prep,rand_forest_l
 rand_forest_clf = RandomForestClassifier(n_estimators= 500, min_samples_split= 10, min_samples_leaf= 1, max_features= 'sqrt', max_depth= 25, bootstrap = False)
 
 
-
+# joblib save the model
 model_file_path = Path('rand_forest_clf.sav')
 try:
     model_file_path.resolve(strict=True)
