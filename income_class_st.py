@@ -13,10 +13,10 @@ import streamlit as st
 import boto3
 #from secret import access_key, secret_access_key
 import tempfile
-import json
+#import json
 #import requests
 #from streamlit_lottie import st_lottie, st_lottie_spinner
-import time
+#import time
 
 
 
@@ -451,7 +451,7 @@ if predict_bt:
 
     #st_lottie(lottie_loading_an, quality='high', key=None, height='200px', width='200px')
     # prediction from the model on AWS S3
-    client = boto3.client('s3', aws_access_key_id=access_key,aws_secret_access_key=secret_access_key)
+    client = boto3.client('s3', aws_access_key_id=st.secrets["access_key"],aws_secret_access_key=st.secrets["secret_access_key"])
 
     bucket_name = "incomepredbucket"
     key = "rand_forest_clf.sav"
