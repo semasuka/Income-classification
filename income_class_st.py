@@ -11,8 +11,12 @@ from imblearn.over_sampling import SMOTE
 import joblib
 import streamlit as st
 import boto3
-from secret import access_key, secret_access_key
+#from secret import access_key, secret_access_key
 import tempfile
+import json
+import requests
+from streamlit_lottie import st_lottie, st_lottie_spinner
+import time
 
 
 
@@ -432,8 +436,20 @@ st.markdown('##')
 st.markdown('##')
 
 
+# Animation function
+def load_lottieurl(url: str):
+    r = requests.get(url)
+    if r.status_code != 200:
+        return None
+    else:
+        return r.json()
+
+lottie_loading_an = load_lottieurl('https://assets3.lottiefiles.com/packages/lf20_szlepvdh.json')
+
 
 if predict_bt:
+
+    #st_lottie(lottie_loading_an, quality='high', key=None, height='200px', width='200px')
     # prediction from the model on AWS S3
     client = boto3.client('s3', aws_access_key_id=access_key,aws_secret_access_key=secret_access_key)
 
@@ -446,6 +462,7 @@ if predict_bt:
         model = joblib.load(fp)
 
     final_pred = model.predict(profile_to_pred_prep_drop_ft)
+    # if final_pred exists, then stop displaying the loading animation
     if final_pred[0] == 1.0:
         st.success('## You most likely make more than 50k')
     else:
