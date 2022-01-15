@@ -11,12 +11,11 @@ from imblearn.over_sampling import SMOTE
 import joblib
 import streamlit as st
 import boto3
-#from secret import access_key, secret_access_key
+from secret import access_key, secret_access_key
 import tempfile
-#import json
-#import requests
-#from streamlit_lottie import st_lottie, st_lottie_spinner
-#import time
+import json
+import requests
+from streamlit_lottie import st_lottie_spinner
 
 
 
@@ -436,32 +435,39 @@ st.markdown('##')
 st.markdown('##')
 
 
-# Animation function
-# def load_lottieurl(url: str):
-#     r = requests.get(url)
-#     if r.status_code != 200:
-#         return None
-#     else:
-#         return r.json()
-
-# lottie_loading_an = load_lottieurl('https://assets3.lottiefiles.com/packages/lf20_szlepvdh.json')
+#Animation function
+@st.experimental_memo
+def load_lottieurl(url: str):
+    r = requests.get(url)
+    if r.status_code != 200:
+        return None
+    return r.json()
 
 
-if predict_bt:
+lottie_loading_an = load_lottieurl('https://assets3.lottiefiles.com/packages/lf20_szlepvdh.json')
 
-    #st_lottie(lottie_loading_an, quality='high', key=None, height='200px', width='200px')
-    # prediction from the model on AWS S3
-    client = boto3.client('s3', aws_access_key_id=st.secrets["access_key"],aws_secret_access_key=st.secrets["secret_access_key"])
+
+def make_prediction():
+    # connect to s3 bucket
+    client = boto3.client('s3', aws_access_key_id=st.secrets["access_key"],aws_secret_access_key=st.secrets["secret_access_key"]) # for s3 API keys when deployed on streamlit share
+    #client = boto3.client('s3', aws_access_key_id=access_key,aws_secret_access_key=secret_access_key) # for s3 API keys when deployed on locally
 
     bucket_name = "incomepredbucket"
     key = "rand_forest_clf.sav"
 
+    # load the model from s3 in a temporary file
     with tempfile.TemporaryFile() as fp:
         client.download_fileobj(Fileobj=fp, Bucket=bucket_name, Key=key)
         fp.seek(0)
         model = joblib.load(fp)
 
-    final_pred = model.predict(profile_to_pred_prep_drop_ft)
+    # prediction from the model on AWS S3
+    return model.predict(profile_to_pred_prep_drop_ft)
+
+if predict_bt:
+
+    with st_lottie_spinner(lottie_loading_an, quality='high', height='200px', width='200px'):
+        final_pred = make_prediction()
     # if final_pred exists, then stop displaying the loading animation
     if final_pred[0] == 1.0:
         st.success('## You most likely make more than 50k')
