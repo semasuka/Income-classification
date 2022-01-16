@@ -8,10 +8,10 @@ from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder, MinMaxScaler, OrdinalEncoder
 from sklearn.ensemble import RandomForestClassifier
 from imblearn.over_sampling import SMOTE
-#from secret import access_key, secret_access_key
 import joblib
 import streamlit as st
 import boto3
+#from secret import access_key, secret_access_key
 import tempfile
 import json
 import requests
@@ -446,8 +446,8 @@ def load_lottieurl(url: str):
 
 lottie_loading_an = load_lottieurl('https://assets3.lottiefiles.com/packages/lf20_szlepvdh.json')
 
-@st.experimental_singleton
-def loading_model():
+
+def make_prediction():
     # connect to s3 bucket
     client = boto3.client('s3', aws_access_key_id=st.secrets["access_key"],aws_secret_access_key=st.secrets["secret_access_key"]) # for s3 API keys when deployed on streamlit share
     #client = boto3.client('s3', aws_access_key_id=access_key,aws_secret_access_key=secret_access_key) # for s3 API keys when deployed on locally
@@ -460,12 +460,8 @@ def loading_model():
         client.download_fileobj(Fileobj=fp, Bucket=bucket_name, Key=key)
         fp.seek(0)
         model = joblib.load(fp)
-    return model
 
-def make_prediction():
-    #loading the model from s3
-    model = loading_model()
-
+    # prediction from the model on AWS S3
     return model.predict(profile_to_pred_prep_drop_ft)
 
 if predict_bt:
