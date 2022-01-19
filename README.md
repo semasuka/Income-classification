@@ -1,4 +1,4 @@
-![banner](gif_streamlit/Income_classification.png)
+![banner](gif_streamlit_banner/Income_classification.png)
 Banner [source](https://banner.godori.dev/)
 
 # People with the highest education level, and who are either husbands or wifes makes more money
@@ -117,7 +117,7 @@ To deploy this project on streamlit share, follow these steps:
 
 ## App deployed on Streamlit
 
-![Streamlit GIF](gif_streamlit/gif_streamlit.gif)
+![Streamlit GIF](gif_streamlit_banner/gif_streamlit.gif)
 ## Repository structure
 
 
