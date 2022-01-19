@@ -122,7 +122,7 @@ To deploy this project on streamlit share, follow these steps:
 
 
 ```
-├── gif_streamlit                     
+├── gif_streamlit_banner                     
 │   ├── gif_streamlit.gif           <- gif file used in the README.
 │   ├── Income_classification.png   <- banner image.
 │
