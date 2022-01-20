@@ -77,6 +77,10 @@ ROC curve of random forest (Best estimator with the best parameters)
 
 ![ROC curve](https://i.ibb.co/dWc8P7g/Screen-Shot-2022-01-17-at-3-50-54-PM.png)
 
+The final model used is: Random forest classifier
+Metrics used: Precision (87%)
+Why choose precision as metrics: Because a financial instituation would rather get make sure that the people the loan is given do actually make more than 50k. Even though that it means approving fewer applicants. Thus prioritizing precision over recall.
+
 
 ## Lessons learned and recommendation
 
