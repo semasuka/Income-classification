@@ -5,7 +5,7 @@ Banner [source](https://banner.godori.dev/)
 
 Predicting if an individual make more or less than 50K using different information about the person.
 
-![Python version](https://img.shields.io/badge/Python%20version-3.10-green)
+![Python version](https://img.shields.io/badge/Python%20version-3.10-lightgrey)
 ![GitHub last commit](https://img.shields.io/github/last-commit/semasuka/Income-classification)
 ![GitHub repo size](https://img.shields.io/github/repo-size/semasuka/Income-classification)
 
