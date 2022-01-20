@@ -79,11 +79,13 @@ ROC curve of random forest (Best estimator with the best parameters)
 
 Top 5 models after hyper parameter tuning
 
-| Random Forest     	| 87% 	| 
-| Neural Network    	| 81% 	|   	
-| KNN               	| 83% 	|   	
-| Gradient Boosting 	| 90% 	|   	
-| Bagging           	| 87% 	|   	
+| Model     	        | Precision score 	| 
+|-------------------	|------------------	|
+| Random Forest     	| 87% 	            | 
+| Neural Network    	| 81% 	            |   	
+| KNN               	| 83% 	            |   	
+| Gradient Boosting 	| 90% 	            |   	
+| Bagging           	| 87% 	            |   	
 
 - ***The final model used is: Random forest classifier***
 - ***Metrics used: Precision (87%)***
