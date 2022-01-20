@@ -20,6 +20,24 @@ Badge [source](https://shields.io/)
 
 - [@semasuka](https://www.github.com/semasuka)
 
+## Table of Contents
+
+- [Business problem](#Business-problem)
+- [Data source](#Data-source)
+- [Methods](#Methods)
+- [Tech Stack](#Tech-Stack)
+- [Quick glance at the results](#Quick-glance-at-the-results)
+- [Lessons learned and recommendation](#Lessons-learned-and-recommendation)
+- [Limitation and what can be improved](#Limitation-and-what-can-be-improved)
+- [Run Locally](#Run-Locally)
+- [Deployment on streamlit](#Deployment-on-streamlit)
+- [App deployed on Streamlit](#App-deployed-on-Streamlit)
+- [Repository structure](#Repository-structure)
+- [Contribution](#Contribution)
+- [License](#License)
+
+
+
 
 ## Business problem
 
@@ -60,15 +78,17 @@ ROC curve of random forest (Best estimator with the best parameters)
 ![ROC curve](https://i.ibb.co/dWc8P7g/Screen-Shot-2022-01-17-at-3-50-54-PM.png)
 
 
-## Lessons learned & recommendation
+## Lessons learned and recommendation
 
 - Based on the analysis on this project, we found out that the education level and type of relationship are the most predictive features to determine if someone makes more or less than 50K. Other features like Capital gain, hours work and age are also usefull. The least usefull features are: their occupation and the workclass they belong to.
 - Recommendation would be to focus more on the most predictive feature when looking at the applicant profile, and pay less attention on their occupation and workclass.
-## Limitation & what can be improved
+## Limitation and what can be improved
 
 - Speed: since the model is stored on AWS S3, it can take some few seconds to load. Solution: cache the model with the Streamlit @st.experimental_singleton for faster reload.
 - Dataset used: the dataset used is from 1990, inflation has not been taken into consideration and the countries's economies have changed since then. Solution: retrain with a more recent dataset.
 - Hyperparameter tuning: I used RandomeSearchCV to save time but could be improved by couple of % with GridSearchCV.
+
+
 ## Run Locally
 Initialize git
 
