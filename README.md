@@ -8,6 +8,7 @@ Predicting if an individual make more or less than 50K using different informati
 ![Python version](https://img.shields.io/badge/Python%20version-3.10-lightgrey)
 ![GitHub last commit](https://img.shields.io/github/last-commit/semasuka/Income-classification)
 ![GitHub repo size](https://img.shields.io/github/repo-size/semasuka/Income-classification)
+![Type of ML](https://img.shields.io/badge/Type%20of%20ML-Binary%20Classification-red)
 
 Badge [source](https://shields.io/)
 
