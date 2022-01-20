@@ -77,8 +77,22 @@ ROC curve of random forest (Best estimator with the best parameters)
 
 ![ROC curve](https://i.ibb.co/dWc8P7g/Screen-Shot-2022-01-17-at-3-50-54-PM.png)
 
+Top 5 models after hyper parameter tuning
+
+| Random Forest     	| 87% 	| 
+|-------------------	|-----	|
+| Neural Network    	| 81% 	|   	
+|-------------------	|-----	|
+| KNN               	| 83% 	|   	
+|-------------------	|-----	|
+| Gradient Boosting 	| 90% 	|   	
+|-------------------	|-----	|
+| Bagging           	| 87% 	|   	
+|-------------------	|-----	|
+
 - ***The final model used is: Random forest classifier***
 - ***Metrics used: Precision (87%)***
+- ***Why choosing this Random forest yet Gradient boosting had 90%, well because Gradient boosting was overfitting***
 - ***Why choose precision as metrics: Because a financial instituation would rather get make sure that the people the loan is given do actually make more than 50k. Even though that it means approving fewer applicants. Thus prioritizing precision over recall.***
 
 
