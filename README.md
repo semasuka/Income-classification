@@ -11,6 +11,7 @@ Predicting if an individual make more or less than 50K using different informati
 ![Type of ML](https://img.shields.io/badge/Type%20of%20ML-Binary%20Classification-red)
 ![Licebse](https://img.shields.io/badge/License-MIT-green)
 [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1r7d_SCO5YsUjTTPLDntvmaCykH8ga3-l)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/semasuka/income-classification/income_class_st.py)
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 
