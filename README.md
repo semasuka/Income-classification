@@ -1,10 +1,6 @@
 ![banner](gif_streamlit_banner/Income_classification.png)
 Banner [source](https://banner.godori.dev/)
 
-# People with the highest education level, and who are either husbands or wifes makes more money
-
-Predicting if an individual make more or less than 50K using different information about the person.
-
 ![Python version](https://img.shields.io/badge/Python%20version-3.10%2B-lightgrey)
 ![GitHub last commit](https://img.shields.io/github/last-commit/semasuka/Income-classification)
 ![GitHub repo size](https://img.shields.io/github/repo-size/semasuka/Income-classification)
@@ -13,9 +9,12 @@ Predicting if an individual make more or less than 50K using different informati
 [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1r7d_SCO5YsUjTTPLDntvmaCykH8ga3-l)
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/semasuka/income-classification/income_class_st.py)
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-
-
 Badge [source](https://shields.io/)
+
+# People with the highest education level, and who are either husbands or wifes makes more money
+
+Predicting if an individual make more or less than 50K using different information about the person.
+
 
 ## Authors
 
