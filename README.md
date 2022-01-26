@@ -23,19 +23,22 @@ Predicting if an individual make more or less than 50K using different informati
 
 ## Table of Contents
 
-- [Business problem](#Business-problem)
-- [Data source](#Data-source)
-- [Methods](#Methods)
-- [Tech Stack](#Tech-Stack)
-- [Quick glance at the results](#Quick-glance-at-the-results)
-- [Lessons learned and recommendation](#Lessons-learned-and-recommendation)
-- [Limitation and what can be improved](#Limitation-and-what-can-be-improved)
-- [Run Locally](#Run-Locally)
-- [Deployment on streamlit](#Deployment-on-streamlit)
-- [App deployed on Streamlit](#App-deployed-on-Streamlit)
-- [Repository structure](#Repository-structure)
-- [Contribution](#Contribution)
-- [License](#License)
+- [People with the highest education level, and who are either husbands or wifes makes more money](#people-with-the-highest-education-level-and-who-are-either-husbands-or-wifes-makes-more-money)
+  - [Authors](#authors)
+  - [Table of Contents](#table-of-contents)
+  - [Business problem](#business-problem)
+  - [Data source](#data-source)
+  - [Methods](#methods)
+  - [Tech Stack](#tech-stack)
+  - [Quick glance at the results](#quick-glance-at-the-results)
+  - [Lessons learned and recommendation](#lessons-learned-and-recommendation)
+  - [Limitation and what can be improved](#limitation-and-what-can-be-improved)
+  - [Run Locally](#run-locally)
+  - [Deployment on streamlit](#deployment-on-streamlit)
+  - [App deployed on Streamlit](#app-deployed-on-streamlit)
+  - [Repository structure](#repository-structure)
+  - [Contribution](#contribution)
+  - [License](#license)
 
 
 
@@ -163,30 +166,33 @@ To deploy this project on streamlit share, follow these steps:
 
 
 ```
-├── gif_streamlit_banner                     
-│   ├── gif_streamlit.gif           <- gif file used in the README.
-│   ├── Income_classification.png   <- banner image used in the README.
-│
+
 ├── datasets
 │   ├── GDP.csv                     <- the data used to feature engineering/enriched the original data.
 │   ├── test.csv                    <- the test data.
 │   ├── train.csv                   <- the train data.
-│   
+│
+│
+├── gif_streamlit_banner
+│   ├── gif_streamlit.gif           <- gif file used in the README.
+│   ├── Income_classification.png   <- banner image used in the README.
+│
+│
+├── pandas_profile_file
+│   ├── income_class_profile.html   <- exported panda profile html file.
+│
 │
 ├── .gitignore                      <- used to ignore certain folder and files that won't be commit to git.
 │
-│ 
-├── income_class_profile.html       <- exported panda profile html file.
 │
-│ 
 ├── Income_Classification.ipynb     <- main python notebook where all the analysis and modeling are done.
-│ 
+│
 │
 ├── income_class_st.py              <- file with the best model and best hyperparameter with streamlit component for rendering the interface.
-│ 
+│
 │
 ├── README.md                       <- this readme file.
-│ 
+│
 │
 ├── requirements.txt                <- list of all the dependancies with their versions.
 
