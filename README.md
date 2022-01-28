@@ -63,7 +63,7 @@ This app can be used when that information is not available or is confidential d
 ## Tech Stack
 
 - Python (refer to requirement.txt for the packages used in this project)
-- Streamlit (interace for the model)
+- Streamlit (interface for the model)
 - AWS S3 (model storage)
 
 
@@ -93,7 +93,7 @@ Top 5 models after hyper parameter tuning
 
 - ***The final model used is: Random forest classifier***
 - ***Metrics used: Precision (87%)***
-- ***Why choosing this Random forest yet Gradient boosting had 90%, well because Gradient boosting was overfitting***
+- ***Why choosing random forest yet gradient boosting had 90%, well because Gradient boosting was overfitting***
 - ***Why choose precision as metrics: Because a financial instituation would rather get make sure that the people the loan is given do actually make more than 50k. Even though that it means approving fewer applicants. Thus prioritizing precision over recall.***
 
 
