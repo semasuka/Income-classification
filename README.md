@@ -34,6 +34,7 @@ Predicting if an individual make more or less than 50K using different informati
   - [Lessons learned and recommendation](#lessons-learned-and-recommendation)
   - [Limitation and what can be improved](#limitation-and-what-can-be-improved)
   - [Run Locally](#run-locally)
+  - [Explore the notebook](#explore-the-notebook)
   - [Deployment on streamlit](#deployment-on-streamlit)
   - [App deployed on Streamlit](#app-deployed-on-streamlit)
   - [Repository structure](#repository-structure)
@@ -146,6 +147,10 @@ Start the streamlit server locally
 streamlit run income_class_st.py
 ```
 If you are having issue with streamlit, please follow [this tutorial on how to set up streamlit](https://docs.streamlit.io/library/get-started/installation)
+
+## Explore the notebook
+
+To explore the notebook file [here](https://nbviewer.org/github/semasuka/Income-classification/blob/master/Income_Classification.ipynb)
 
 ## Deployment on streamlit
 
