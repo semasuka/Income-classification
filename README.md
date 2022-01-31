@@ -132,13 +132,7 @@ cd Income-classification
 Create a conda virtual environment and install all the packages from the environment.yml (recommended)
 
 ```bash
-conda env create -f conda_env_yml_file/environment.yml
-```
-
-or create a conda virtual environment and install all the packages from the requirements.txt (not recommended to use requirements.txt for a conda environment, use instead the yml file and use the requirements.txt for the pip environment)
-
-```bash
-conda create —-name <env_name> —-file requirements.txt 
+conda env create -f environment.yml
 ```
 
 Activate the conda environment
@@ -184,10 +178,7 @@ To deploy this project on streamlit share, follow these steps:
 
 ```
 
-├── conda_env_yml_file
-│   ├── environment.yml             <- list of all the dependencies with their versions(for conda environment).
-│
-│
+
 ├── datasets
 │   ├── GDP.csv                     <- the data used to feature engineering/enriched the original data.
 │   ├── test.csv                    <- the test data.
@@ -206,6 +197,9 @@ To deploy this project on streamlit share, follow these steps:
 ├── .gitignore                      <- used to ignore certain folder and files that won't be commit to git.
 │
 │
+├── environment.yml                 <- list of all the dependencies with their versions(for conda environment).
+│
+│
 ├── Income_Classification.ipynb     <- main python notebook where all the analysis and modeling are done.
 │
 │
@@ -215,7 +209,7 @@ To deploy this project on streamlit share, follow these steps:
 ├── README.md                       <- this readme file.
 │
 │
-├── requirements.txt                <- list of all the dependencies with their versions(for pip environment).
+├── requirements.txt                <- list of all the dependencies with their versions(streamlit).
 
 ```
 ## Contribution
