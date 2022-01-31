@@ -1,6 +1,5 @@
 import numpy as np
 import pandas as pd
-from pathlib import Path
 from sklearn.model_selection import train_test_split
 from sklearn.base import BaseEstimator, TransformerMixin
 from sklearn.pipeline import Pipeline
@@ -412,20 +411,6 @@ rand_forest_least_pred = [
     'occupation_Priv-house-serv'
 ]
 
-#X_train_copy_prep_drop_ft = drop_least_useful_ft(X_train_copy_prep,rand_forest_least_pred)
-
-#rand_forest_clf = RandomForestClassifier(n_estimators= 500, min_samples_split= 10, min_samples_leaf= 1, max_features= 'sqrt', max_depth= 25, bootstrap = False)
-
-
-# # joblib save the model localy
-# model_file_path = Path('rand_forest_clf.sav')
-# try:
-#     model_file_path.resolve(strict=True)
-# except FileNotFoundError:
-#     rand_forest_clf_trn = rand_forest_clf.fit(X_train_copy_prep_drop_ft, y_train_copy_prep)
-#     joblib.dump(rand_forest_clf_trn,model_file_path)
-# else:
-#     rand_forest_clf_trn = joblib.load(model_file_path)
 
 
 profile_to_pred_prep_drop_ft = drop_least_useful_ft(profile_to_pred_prep,rand_forest_least_pred)
