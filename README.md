@@ -135,7 +135,7 @@ Create a conda virtual environment and install all the packages from the environ
 conda env create -f environment.yml
 ```
 
-or create a conda virtual environment and install all the packages from the requirements.txt (not recommended)
+or create a conda virtual environment and install all the packages from the requirements.txt (not recommended to use requirements.txt for a conda environment, use instead the yml file and use the requirements.txt for the pip environment)
 
 ```bash
 conda create —-name <env_name> —-file requirements.txt 
