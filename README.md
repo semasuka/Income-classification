@@ -84,13 +84,13 @@ ROC curve of random forest (Best estimator with the best parameters)
 
 Top 5 models after hyper parameter tuning
 
-| Model     	        | Precision score 	| 
+| Model     	        | Precision score 	|
 |-------------------	|------------------	|
-| Random Forest     	| 87% 	            | 
-| Neural Network    	| 81% 	            |   	
-| KNN               	| 83% 	            |   	
-| Gradient Boosting 	| 90% 	            |   	
-| Bagging           	| 87% 	            |   	
+| Random Forest     	| 87% 	            |
+| Neural Network    	| 81% 	            |
+| KNN               	| 83% 	            |
+| Gradient Boosting 	| 90% 	            |
+| Bagging           	| 87% 	            |
 
 - ***The final model used is: Random forest classifier***
 - ***Metrics used: Precision (87%)***
@@ -132,7 +132,7 @@ cd Income-classification
 Create a conda virtual environment and install all the packages from the environment.yml (recommended)
 
 ```bash
-conda env create -f environment.yml
+conda env create -f conda_env_yml_file/environment.yml
 ```
 
 or create a conda virtual environment and install all the packages from the requirements.txt (not recommended to use requirements.txt for a conda environment, use instead the yml file and use the requirements.txt for the pip environment)
@@ -170,7 +170,7 @@ To deploy this project on streamlit share, follow these steps:
 
 - first, make sure you upload your files on Github, including a requirements.txt file
 - go to [streamlit share](https://share.streamlit.io/)
-- login with Github, Google, etc 
+- login with Github, Google, etc.
 - click on new app button
 - select the Github repo name, branch, python file with the streamlit codes
 - click advanced settings, select python version 3.9 and add the secret keys if your model is stored on AWS or GCP bucket
@@ -184,6 +184,10 @@ To deploy this project on streamlit share, follow these steps:
 
 ```
 
+├── conda_env_yml_file
+│   ├── environment.yml             <- list of all the dependencies with their versions(for conda environment).
+│
+│
 ├── datasets
 │   ├── GDP.csv                     <- the data used to feature engineering/enriched the original data.
 │   ├── test.csv                    <- the test data.
@@ -211,15 +215,12 @@ To deploy this project on streamlit share, follow these steps:
 ├── README.md                       <- this readme file.
 │
 │
-├── environment.yml                 <- list of all the dependencies with their versions(for conda environment).
-│
-│
 ├── requirements.txt                <- list of all the dependencies with their versions(for pip environment).
 
 ```
 ## Contribution
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change or contribute.
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change or contribute.
 
 ## License
 
@@ -246,4 +247,3 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 Learn more about [MIT](https://choosealicense.com/licenses/mit/) license
-
