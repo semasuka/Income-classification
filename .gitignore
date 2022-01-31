@@ -2,4 +2,4 @@
 .income_class_env/
 rand_forest_clf.sav
 __pycache__/
-secret.py
+.income_class/

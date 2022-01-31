@@ -23,7 +23,7 @@ Predicting if an individual make more or less than 50K using different informati
 
 ## Table of Contents
 
-- [People with the highest education level, and who are either husbands or wifes makes more money](#people-with-the-highest-education-level-and-who-are-either-husbands-or-wifes-makes-more-money)
+- [People with the highest education level, and who are either husbands or wifes make more money](#people-with-the-highest-education-level-and-who-are-either-husbands-or-wifes-make-more-money)
   - [Authors](#authors)
   - [Table of Contents](#table-of-contents)
   - [Business problem](#business-problem)
@@ -123,10 +123,22 @@ Clone the project
 git clone https://github.com/semasuka/Income-classification.git
 ```
 
-Create a conda virtual environment and install all the packages from the requirements.txt
+enter the project directory
 
 ```bash
-conda create —name <env_name> —file requirements.txt 
+cd Income-classification
+```
+
+Create a conda virtual environment and install all the packages from the environment.yml (recommended)
+
+```bash
+conda env create -f environment.yml
+```
+
+or create a conda virtual environment and install all the packages from the requirements.txt (not recommended)
+
+```bash
+conda create —-name <env_name> —-file requirements.txt 
 ```
 
 Activate the conda environment
@@ -199,7 +211,10 @@ To deploy this project on streamlit share, follow these steps:
 ├── README.md                       <- this readme file.
 │
 │
-├── requirements.txt                <- list of all the dependancies with their versions.
+├── environment.yml                 <- list of all the dependencies with their versions(for conda environment).
+│
+│
+├── requirements.txt                <- list of all the dependencies with their versions(for pip environment).
 
 ```
 ## Contribution
