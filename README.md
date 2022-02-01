@@ -1,4 +1,4 @@
-![banner](gif_streamlit_banner/Income_classification.png)
+![banner](assets/Income_classification.png)
 Banner [source](https://banner.godori.dev/)
 
 ![Python version](https://img.shields.io/badge/Python%20version-3.10%2B-lightgrey)
@@ -72,15 +72,15 @@ This app can be used when that information is not available or is confidential d
 
 Most correlated features to the target.
 
-![heatmat](https://i.ibb.co/GtfKkxn/Screen-Shot-2022-01-17-at-3-37-47-PM.png)
+![heatmap](assets/heatmap.png)
 
 Confusion matrix of random forest (Best estimator with the best parameters)
 
-![Confusion matrix](https://i.ibb.co/bHDQPnt/Screen-Shot-2022-01-17-at-3-47-51-PM.png)
+![Confusion matrix](assets/confusion_matrix.pngpng)
 
 ROC curve of random forest (Best estimator with the best parameters)
 
-![ROC curve](https://i.ibb.co/dWc8P7g/Screen-Shot-2022-01-17-at-3-50-54-PM.png)
+![ROC curve](assets/roc.png)
 
 Top 5 models after hyper parameter tuning
 
@@ -172,7 +172,7 @@ To deploy this project on streamlit share, follow these steps:
 
 ## App deployed on Streamlit
 
-![Streamlit GIF](gif_streamlit_banner/gif_streamlit.gif)
+![Streamlit GIF](assets/gif_streamlit.gif)
 ## Repository structure
 
 
@@ -185,10 +185,12 @@ To deploy this project on streamlit share, follow these steps:
 │   ├── train.csv                   <- the train data.
 │
 │
-├── gif_streamlit_banner
+├── assets
+│   ├── confusion_matrix.png        <- confusion matrix image used in the README.
 │   ├── gif_streamlit.gif           <- gif file used in the README.
+│   ├── heatmap.png                 <- heatmap image used in the README.
 │   ├── Income_classification.png   <- banner image used in the README.
-│
+│   ├── roc.png                     <- ROC image used in the README.
 │
 ├── pandas_profile_file
 │   ├── income_class_profile.html   <- exported panda profile html file.
