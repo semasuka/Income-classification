@@ -1,5 +1,3 @@
 .DS_store
-.income_class_env/
-rand_forest_clf.sav
-__pycache__/
-.income_class/
+.Income_class_env/
+.ipynb_checkpoints/
