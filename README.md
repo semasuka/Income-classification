@@ -203,6 +203,9 @@ To deploy this project on streamlit share, follow these steps:
 ├── Income_Classification.ipynb     <- main python notebook where all the analysis and modeling are done.
 │
 │
+├── LICENSE                         <- license file.
+│
+│
 ├── income_class_st.py              <- file with the best model and best hyperparameter with streamlit component for rendering the interface.
 │
 │
