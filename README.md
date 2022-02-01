@@ -76,7 +76,7 @@ Most correlated features to the target.
 
 Confusion matrix of random forest (Best estimator with the best parameters)
 
-![Confusion matrix](assets/confusion_matrix.pngpng)
+![Confusion matrix](assets/confusion_matrix.png)
 
 ROC curve of random forest (Best estimator with the best parameters)
 
