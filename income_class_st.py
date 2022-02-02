@@ -7,6 +7,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder, MinMaxScaler, OrdinalEncoder
 from sklearn.ensemble import RandomForestClassifier
 from imblearn.over_sampling import SMOTE
+#from secret import access_key, secret_access_key
 import joblib
 import streamlit as st
 import boto3
@@ -14,7 +15,6 @@ import tempfile
 import json
 import requests
 from streamlit_lottie import st_lottie_spinner
-
 
 
 
