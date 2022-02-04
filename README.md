@@ -132,7 +132,7 @@ cd Income-classification
 Create a conda virtual environment and install all the packages from the environment.yml (recommended)
 
 ```bash
-conda env create -f assets/environment.yml
+conda env create --prefix <env_name> --file assets/environment.yml
 ```
 
 Activate the conda environment
