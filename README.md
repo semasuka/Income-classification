@@ -171,6 +171,8 @@ To deploy this project on streamlit share, follow these steps:
 ## App deployed on Streamlit
 
 ![Streamlit GIF](assets/gif_streamlit.gif)
+
+[Gif source](https://ezgif.com/)
 ## Repository structure
 
 
