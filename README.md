@@ -14,8 +14,6 @@ Badge [source](https://shields.io/)
 
 # People with the highest education level, and who are either husbands or wifes make more money
 
-Predicting if an individual make more or less than 50K using different information about the person.
-
 
 ## Authors
 
@@ -24,22 +22,22 @@ Predicting if an individual make more or less than 50K using different informati
 ## Table of Contents
 
 - [People with the highest education level, and who are either husbands or wifes make more money](#people-with-the-highest-education-level-and-who-are-either-husbands-or-wifes-make-more-money)
-  - [Authors](#authors)
-  - [Table of Contents](#table-of-contents)
-  - [Business problem](#business-problem)
-  - [Data source](#data-source)
-  - [Methods](#methods)
-  - [Tech Stack](#tech-stack)
-  - [Quick glance at the results](#quick-glance-at-the-results)
-  - [Lessons learned and recommendation](#lessons-learned-and-recommendation)
-  - [Limitation and what can be improved](#limitation-and-what-can-be-improved)
-  - [Run Locally](#run-locally)
-  - [Explore the notebook](#explore-the-notebook)
-  - [Deployment on streamlit](#deployment-on-streamlit)
-  - [App deployed on Streamlit](#app-deployed-on-streamlit)
-  - [Repository structure](#repository-structure)
-  - [Contribution](#contribution)
-  - [License](#license)
+- [Authors](#authors)
+- [Table of Contents](#table-of-contents)
+- [Business problem](#business-problem)
+- [Data source](#data-source)
+- [Methods](#methods)
+- [Tech Stack](#tech-stack)
+- [Quick glance at the results](#quick-glance-at-the-results)
+- [Lessons learned and recommendation](#lessons-learned-and-recommendation)
+- [Limitation and what can be improved](#limitation-and-what-can-be-improved)
+- [Run Locally](#run-locally)
+- [Explore the notebook](#explore-the-notebook)
+- [Deployment on streamlit](#deployment-on-streamlit)
+- [App deployed on Streamlit](#app-deployed-on-streamlit)
+- [Repository structure](#repository-structure)
+- [Contribution](#contribution)
+- [License](#license)
 
 
 
@@ -173,6 +171,8 @@ To deploy this project on streamlit share, follow these steps:
 ## App deployed on Streamlit
 
 ![Streamlit GIF](assets/gif_streamlit.gif)
+
+Video to gif [tool](https://ezgif.com/)
 ## Repository structure
 
 
