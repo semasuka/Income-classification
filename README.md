@@ -172,7 +172,7 @@ To deploy this project on streamlit share, follow these steps:
 
 ![Streamlit GIF](assets/gif_streamlit.gif)
 
-[Gif source](https://ezgif.com/)
+Gif recording [tool](https://ezgif.com/)
 ## Repository structure
 
 
