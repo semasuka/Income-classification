@@ -14,8 +14,6 @@ Badge [source](https://shields.io/)
 
 # People with the highest education level, and who are either husbands or wifes make more money
 
-Predicting if an individual make more or less than 50K using different information about the person.
-
 
 ## Authors
 
