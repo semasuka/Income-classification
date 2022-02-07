@@ -391,7 +391,7 @@ train_copy_with_profile_to_pred = full_pipeline_fuc(train_copy_with_profile_to_p
 
 profile_to_pred_prep = train_copy_with_profile_to_pred.iloc[-1:,:-1]
 
-
+st.write(profile_to_pred_prep)
 
 
 

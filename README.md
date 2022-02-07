@@ -1,4 +1,4 @@
-![banner](assets/Income_classification.png)
+![banner](assets/Income_classification_banner.png)
 Banner [source](https://banner.godori.dev/)
 
 ![Python version](https://img.shields.io/badge/Python%20version-3.10%2B-lightgrey)
@@ -189,7 +189,7 @@ To deploy this project on streamlit share, follow these steps:
 │   ├── confusion_matrix.png        <- confusion matrix image used in the README.
 │   ├── gif_streamlit.gif           <- gif file used in the README.
 │   ├── heatmap.png                 <- heatmap image used in the README.
-│   ├── Income_classification.png   <- banner image used in the README.
+│   ├── Income_classification_banner.png   <- banner image used in the README.
 │   ├── environment.yml             <- list of all the dependencies with their versions(for conda environment).
 │   ├── roc.png                     <- ROC image used in the README.
 │
