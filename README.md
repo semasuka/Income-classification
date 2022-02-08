@@ -1,5 +1,4 @@
 ![banner](assets/Income_classification_banner.png)
-Banner [source](https://banner.godori.dev/)
 
 ![Python version](https://img.shields.io/badge/Python%20version-3.10%2B-lightgrey)
 ![GitHub last commit](https://img.shields.io/github/last-commit/semasuka/Income-classification)
