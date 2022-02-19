@@ -50,7 +50,7 @@ This app can be used when that information is not available or is confidential d
 
 - Exploratory data analysis
 - Bivariate analysis
-- Multivarate correlation
+- Multivariate correlation
 - Feature engineering
 - Feature selection
 - S3 bucket model hosting
