@@ -174,13 +174,6 @@ Video to gif [tool](https://ezgif.com/)
 
 ```
 
-
-├── datasets
-│   ├── GDP.csv                     <- the data used to feature engineering/enriched the original data.
-│   ├── test.csv                    <- the test data.
-│   ├── train.csv                   <- the train data.
-│
-│
 ├── assets
 │   ├── confusion_matrix.png        <- confusion matrix image used in the README.
 │   ├── gif_streamlit.gif           <- gif file used in the README.
@@ -188,6 +181,13 @@ Video to gif [tool](https://ezgif.com/)
 │   ├── Income_classification_banner.png   <- banner image used in the README.
 │   ├── environment.yml             <- list of all the dependencies with their versions(for conda environment).
 │   ├── roc.png                     <- ROC image used in the README.
+│
+│
+├── datasets
+│   ├── GDP.csv                     <- the data used to feature engineering/enriched the original data.
+│   ├── test.csv                    <- the test data.
+│   ├── train.csv                   <- the train data.
+│
 │
 ├── pandas_profile_file
 │   ├── income_class_profile.html   <- exported panda profile html file.
